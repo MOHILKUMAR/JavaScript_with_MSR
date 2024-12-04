@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        main{
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        h1{
+            padding: 1rem 2rem;
+            background-color: #333;
+            color: #efefef;
+            border-radius: 1rem;
+        }
+        button{
+            padding: 1rem  2rem;
+            border-radius: 1rem;
+            font-size: 1.4rem ;
+            border: none;
+            margin-top: 1rem;
+            outline:  none;
+            cursor: pointer;
+            transition: backgroundcolor,  0.4s;
+
+        }
+        button:hover{
+            background-color: rgb(214,214,214);
+        }
+    </style>
+</head>
+<body>
+    <main>
+    <div class="container">
+        <h1>Current color: <span class = "currentcolor"> rgb(255, 255, 255)</span></h1>
+        <button>Change background-color</button>
+    </div>
+</main>
+
+
+ <button class="btn-headline">MouseOver</button>
+    <script src="script.js"></script>
+</body>
+</html>

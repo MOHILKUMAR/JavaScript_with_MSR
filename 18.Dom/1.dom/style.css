@@ -1,0 +1,18 @@
+
+
+
+
+.green-link{
+    color:  teal;
+    text-decoration-line: none;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.way-line{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}
+.hidden {
+    display: none;
+}
